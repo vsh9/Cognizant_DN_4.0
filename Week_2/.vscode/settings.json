@@ -1,0 +1,13 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "dn4_java",
+            "username": "postgres",
+            "database": "bank_db"
+        }
+    ]
+}
