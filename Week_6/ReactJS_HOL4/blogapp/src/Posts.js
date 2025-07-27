@@ -35,7 +35,7 @@ class Posts extends Component {
 
     componentDidCatch(error, info) {
         console.error("Caught error:", error, info);
-        alert("Something went wrong while rendering the posts.");
+        alert("Error has occured while rendering the posts.");
         this.setState({ hasError: true });
     }
 
